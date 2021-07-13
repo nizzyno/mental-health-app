@@ -35,15 +35,15 @@ Local testing demo: (#)
 
 ## Contributing
 
-- Richie Ortiz:
+- [Ritchie Ortiz](https://www.GitHub.com/xRitchie91)
 
-- Emily Pozzi:
+- [Emily Pozzi](https://www.GitHub.com/emilyepozzi)
 
-- Kyle McKinley:
+- [Kyle McKinley](https://www.GitHub.com/kjmckinley)
 
-- Peter Martinez:
+- [Peter Martinez](https://www.GitHub.com/Pmarti53)
 
-- Noah Harbison: (https://github.com/nizzyno)
+- [Noah Harbison](https://github.com/nizzyno)
 
 Google Docs:(https://docs.google.com/document/d/1KBFv-zkKeTiOiuLJaKDtwle0ZHDEyTbklDi0fOT2uII/edit?ts=60ece869)
 
