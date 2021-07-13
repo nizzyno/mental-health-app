@@ -31,6 +31,8 @@ Local testing demo: (#)
 
 - npm i at root level of directory
 
+- npm run develop at root level
+
 ## Contributing
 
 - Richie Ortiz:
