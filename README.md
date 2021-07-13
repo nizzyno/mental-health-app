@@ -4,7 +4,7 @@
 
 ## Description
 
-Mental health awareness and subscription app. This app is deployed via Heroku.
+Mental health awareness and subscription app. Full-Stack MERN app. This app is deployed via Heroku.
 
 ## Table of Contents
 
@@ -23,17 +23,29 @@ Local testing demo: (#)
 
 ## Usage
 
+- git pull git@github.com:nizzyno/mental-health-app.git
+
+- create branches locally: git checkout -b develop and git checkout -b feature/name
+
+- only merge into develop branch unless another team confirms
+
+- npm i at root level of directory
+
 ## Contributing
 
-Richie Ortiz:
+- Richie Ortiz:
 
-Emily Pozzi:
+- Emily Pozzi:
 
-Kyle McKinley:
+- Kyle McKinley:
 
-Peter Martinez:
+- Peter Martinez:
 
-Noah Harbison: github.com/nizzyno
+- Noah Harbison: (github.com/nizzyno)
+
+Google Docs:(https://docs.google.com/document/d/1KBFv-zkKeTiOiuLJaKDtwle0ZHDEyTbklDi0fOT2uII/edit?ts=60ece869)
+
+Trello: (https://trello.com/b/ftxa9eSU/tims-cookies)
 
 ## Questions
 
