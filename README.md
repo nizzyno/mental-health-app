@@ -41,7 +41,7 @@ Local testing demo: (#)
 
 - Peter Martinez:
 
-- Noah Harbison: (github.com/nizzyno)
+- Noah Harbison: (https://github.com/nizzyno)
 
 Google Docs:(https://docs.google.com/document/d/1KBFv-zkKeTiOiuLJaKDtwle0ZHDEyTbklDi0fOT2uII/edit?ts=60ece869)
 
