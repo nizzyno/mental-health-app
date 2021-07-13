@@ -41,7 +41,7 @@ Local testing demo: (#)
 
 - [Kyle McKinley](https://www.GitHub.com/kjmckinley)
 
-- [Peter Martinez](www.GitHub.com/Pmarti53)
+- [Peter Martinez](https://www.GitHub.com/Pmarti53)
 
 - [Noah Harbison](https://github.com/nizzyno)
 
