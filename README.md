@@ -43,6 +43,8 @@ Local testing demo: (#)
 
 - [Peter Martinez](https://www.GitHub.com/Pmarti53)
 
+- [Brandon Shoemaker](https://github.com/BrandonShoemaker)
+
 - [Noah Harbison](https://github.com/nizzyno)
 
 Google Docs:(https://docs.google.com/document/d/1KBFv-zkKeTiOiuLJaKDtwle0ZHDEyTbklDi0fOT2uII/edit?ts=60ece869)
