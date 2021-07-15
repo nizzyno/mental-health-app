@@ -47,7 +47,7 @@ Local testing demo: (#)
 
 - [Noah Harbison](https://github.com/nizzyno)
 
-Google Docs:(https://docs.google.com/document/d/1KBFv-zkKeTiOiuLJaKDtwle0ZHDEyTbklDi0fOT2uII/edit?ts=60ece869)
+[Google Docs:](https://docs.google.com/document/d/1KBFv-zkKeTiOiuLJaKDtwle0ZHDEyTbklDi0fOT2uII/edit?ts=60ece869)
 
 Trello: (https://trello.com/b/ftxa9eSU/tims-cookies)
 
