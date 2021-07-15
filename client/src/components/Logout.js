@@ -1,6 +1,7 @@
 import React from 'react';
+import './style.css';
 
-function SignIn() {
+function LogOut() {
   return (
     <div className="container">
       <div className="circle">
@@ -14,4 +15,4 @@ function SignIn() {
   );
 }
 
-export default SignIn;
+export default LogOut;
