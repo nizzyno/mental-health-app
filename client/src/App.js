@@ -13,33 +13,70 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home';
 
+// function App() {
+//   const httpLink = createHttpLink({
+//     uri: '/graphql',
+//   });
+
+//   const client = new ApolloClient({
+//     link: httpLink,
+//     cache: new InMemoryCache(),
+
+
+//   });
+// const client = new ApolloClient({
+//   request: operation => {
+//     const token = localStorage.getItem('id_token');
+
+//     operation.setContext({
+//       headers: {
+//         authorization: token ? `Bearer ${token}` : ''
+//       }
+//     });
+//   },
+//   uri: '/graphql'
+// });
+
+const httpLink = createHttpLink({
+  uri: '/graphql'
+});
+
+const authLink = setContext((_, { headers }) => {
+  const token = localStorage.getItem('id_token');
+  return {
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer &{token}` : ''
+    }
+  };
+});
+
+const client = new ApolloClient({
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache()
+});
+
+
 function App() {
-  const httpLink = createHttpLink({
-    uri: '/graphql',
-  });
-
-  const client = new ApolloClient({
-    link: httpLink,
-    cache: new InMemoryCache(),
-  });
-
   return (
     <ApolloProvider client={client}>
-      <div className="flex-column justify-flex-start min-100-vh">
-        <Header />
-        <div className="container">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/signup" component={Signup} />
-            <Route exact path="/profile/:username?" component={Profile} />
+      <Router>
+        <div className="flex-column justify-flex-start min-100-vh">
+          <Header />
+          <div className="container">
+            <Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/login" component={Login} />
+              <Route exact path="/signup" component={Signup} />
+              <Route exact path="/profile/:username?" component={Profile} />
 
-            <Route component={NoMatch} />
-          </Switch>
-          <Home />
+              <Route component={NoMatch} />
+            </Switch>
+            <Home />
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
+      </Router>
     </ApolloProvider>
   );
 }
