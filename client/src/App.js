@@ -6,6 +6,7 @@ import {
   InMemoryCache,
   createHttpLink,
 } from '@apollo/client';
+import { setContext } from '@apollo/client/link/context';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
