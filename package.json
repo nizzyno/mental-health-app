@@ -21,5 +21,18 @@
   "bugs": {
     "url": "https://github.com/nizzyno/mental-health-app/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/nizzyno/mental-health-app#readme"
+=======
+  "homepage": "https://github.com/nizzyno/mental-health-app#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.0.0",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.2"
+  }
+>>>>>>> feature/peter
 }
