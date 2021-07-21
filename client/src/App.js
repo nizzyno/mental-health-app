@@ -12,6 +12,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 import Home from './pages/Home';
+// import Login
+// import Signup
+// import Profile
 
 // function App() {
 //   const httpLink = createHttpLink({
