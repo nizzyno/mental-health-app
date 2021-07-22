@@ -3,21 +3,19 @@ import './Breathe.css';
 
 function Breathe() {
   // const container = document.querySelector('.container');
-  // const text = document.querySelector('#text');
+  // let text = document.querySelector('#text');
 
   // const totalTime = 7500;
   // const breatheTime = (totalTime / 5) * 2;
   // const holdTime = totalTime / 5;
 
-  // text.innerHTML = 'Breathe In';
-  // container.className = 'container grow';
+  // text = 'Breathe In';
 
   // setTimeout(() => {
-  //   text.innerHTML = 'Hold';
+  //   text = 'Hold';
 
   //   setTimeout(() => {
-  //     text.innerHTML = 'Breathe Out';
-  //     container.className = 'container shrink';
+  //     text = 'Breathe Out';
   //   }, holdTime);
   // }, breatheTime);
 
