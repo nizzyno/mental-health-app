@@ -32,10 +32,23 @@ function Profile() {
     );
   }
 
-  return <div className="flex-column">
+  return (
+  
+  <div className="flex-column">
       <h2>Profile:</h2>
-      <label></label>
-  </div>;
+      <form onSubmit={handleSubmit}>
+        <div hidden="hidden" data-attribute={"" + user._id}></div>
+        <label name="profileUsername">Username: </label>
+        <input type="text" name="profileUsername" id="profileUsername" value={user.username}></input>
+        <label name="profileEmail">Email: </label>
+        <input type="text" name="profileEmail" id="profileEmail" value={user.email}></input>
+        <label name="profilePassword">Password: </label>
+        <input type="text" name="profilePassword" id="profilePassword" value={user.password}></input>
+        <button type="button" id="profileSubmitButton">Save</button>
+      </form>
+  </div>
+  
+  );
 }
 
 export default Profile;
