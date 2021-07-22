@@ -5,7 +5,6 @@ import { QUERY_ME, QUERY_USER } from '../utils/queries';
 import Auth from '../utils/auth';
 
 function Profile() {
-  const [isEditing, setIsEditing] = useState(false);
   const { username: userParam } = useParams();
   const { loading, data } = useQuery(userParam ? QUERY_USER : QUERY_ME, {
     variables: { username: userParam }
@@ -35,9 +34,6 @@ function Profile() {
 
 
   const handleKeyDown = e => {
-    if(!isEditing)
-      setIsEditing(true)
-
     const buttonsExist = doucment.querySelector('#formButtonContainer');
     if(!buttonsExist){
       let divEl = document.createElement('div');
@@ -83,7 +79,6 @@ function Profile() {
     document.querySelector('#profileEmail').value = user.email;
     document.querySelector('#profilePassword').value = user.password;
     document.querySelector('#formButtonContainer').remove();
-    setIsEditing(false);
   };
 
 
@@ -94,10 +89,10 @@ function Profile() {
 
   return (
   
-  <div className="flex-column">
+  <div>
       <div id="profileErrorBox"></div>
       <h2>Profile:</h2>
-      <form onSubmit={handleSubmit} id="profileForm">
+      <form onSubmit={handleSubmit} id="profileForm" className="flex-column">
         <div hidden="hidden" data-attribute={"" + user._id}></div>
         <label name="profileUsername">Username: </label>
         <input type="text" name="profileUsername" id="profileUsername" value={user.username} onKeyDown={handleKeyDown}></input>
