@@ -16,33 +16,6 @@ import Login from './pages/Login';
 import Profile from './pages/Profile';
 import Home from './pages/Home';
 
-// import Login
-// import Signup
-// import Profile
-
-// function App() {
-//   const httpLink = createHttpLink({
-//     uri: '/graphql',
-//   });
-
-//   const client = new ApolloClient({
-//     link: httpLink,
-//     cache: new InMemoryCache(),
-
-//   });
-// const client = new ApolloClient({
-//   request: operation => {
-//     const token = localStorage.getItem('id_token');
-
-//     operation.setContext({
-//       headers: {
-//         authorization: token ? `Bearer ${token}` : ''
-//       }
-//     });
-//   },
-//   uri: '/graphql'
-// });
-
 const httpLink = createHttpLink({
   uri: '/graphql',
 });
