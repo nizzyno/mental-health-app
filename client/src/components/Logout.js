@@ -2,6 +2,9 @@ import React from 'react';
 import './style.css';
 
 function LogOut() {
+
+  
+
   return (
     <div className="container">
       <div className="circle">
