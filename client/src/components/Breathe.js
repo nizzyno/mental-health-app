@@ -21,7 +21,7 @@ function Breathe() {
 
   return (
     <div>
-      <h2>Breathe Functionality</h2>
+      {/* <h2>Breathe Functionality</h2> */}
       <div className="container">
         <div className="solid-circle"></div>
         <p id="text"></p>
