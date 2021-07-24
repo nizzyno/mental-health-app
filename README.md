@@ -17,7 +17,7 @@ Visit the URL and download app from URL search bar...
 Local testing demo: (#)
 
 ## Usage
-- git pull git@github.com:nizzyno/mental-health-app.git
+- git pull git@github.com:xRitchie91/haven-app.git
 - create branches locally: git checkout -b develop and git checkout -b feature/name
 - only merge into develop branch unless another team confirms
 - npm i at root level of directory
@@ -36,6 +36,6 @@ Local testing demo: (#)
 - [Trello](https://trello.com/b/ftxa9eSU/tims-cookies)
 
 ## Questions
-[My GitHub Site](https://www.github.com/nizzyno)\
- If you have any additional questions or concerns, please contact me by email at <nizzyno@icloud.com>.
+[My GitHub Site](https://www.github.com/xRitchie91)
+ If you have any additional questions or concerns, please contact me by email at <r.ortiz54@yahoo.com>.
 This project is licensed under [MIT](https://opensource.org/licenses/MIT).
