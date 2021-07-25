@@ -6,7 +6,7 @@ import './Signin.css';
 // import Auth from '../utils/auth';
 
 function SignIn() {
-  return <div className="container"></div>;
+  return <div className="container">Sign In</div>;
 }
 
 export default SignIn;

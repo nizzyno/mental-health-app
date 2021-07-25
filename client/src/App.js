@@ -41,7 +41,7 @@ function App() {
       <Router>
         <div className="flex-column justify-flex-start min-100-vh">
           <Header />
-          <div className="container">
+          <div className="route-container">
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/login" component={Login} />
@@ -50,7 +50,6 @@ function App() {
 
               {/* <Route component={NoMatch} /> */}
             </Switch>
-            <Home />
           </div>
           <Footer />
         </div>
