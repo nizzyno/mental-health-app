@@ -5,7 +5,7 @@ import Breathe from '../components/Breathe.js';
 function Home() {
   return (
     <div>
-      {/* <SignIn /> */}
+      <SignIn />
       <Breathe />
     </div>
   );
