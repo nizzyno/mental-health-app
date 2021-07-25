@@ -32,7 +32,6 @@
 //     );
 //   }
 
-
 //   const handleKeyDown = e => {
 //     const buttonsExist = doucment.querySelector('#formButtonContainer');
 //     if(!buttonsExist){
@@ -45,7 +44,6 @@
 //       doucment.querySelector('#profileForm').append(divEl);
 //     }
 
-
 //     const inputName = e.target.getAttribute("name");
 //     const errorBox = document.querySelector("#profileErrorBox");
 //     let errorMessage = "";
@@ -55,7 +53,6 @@
 //         if(e.target.value.length === 0)
 //           errorMessage = "Your username must be at least 1 character long."
 //         break;
-      
 //       case "profileEmail":
 //         if(!e.target.value.match(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/))
 //           errorMessage = "Your email must be in an email format"
@@ -73,7 +70,6 @@
 //         errorBox.innerText = errorMessage
 //   };
 
-
 //   const handleCancel = e => {
 //     document.querySelector('#profileUsername').value = user.username;
 //     document.querySelector('#profileEmail').value = user.email;
@@ -81,14 +77,12 @@
 //     document.querySelector('#formButtonContainer').remove();
 //   };
 
-
 //   const handleSubmit = e => {
 //     e.preventDefault();
 //     setIsEditing(false);
 //   };
 
 //   return (
-  
 //   <div>
 //       <div id="profileErrorBox"></div>
 //       <h2>Profile:</h2>
@@ -102,7 +96,6 @@
 //         <input type="text" name="profilePassword" id="profilePassword" value={user.password} onKeyDown={handleKeyDown}></input>
 //       </form>
 //   </div>
-  
 //   );
 // }
 

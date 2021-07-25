@@ -36,6 +36,6 @@ Local testing demo: (#)
 - [Trello](https://trello.com/b/ftxa9eSU/tims-cookies)
 
 ## Questions
-[My GitHub Site](https://www.github.com/nizzyno)\
- If you have any additional questions or concerns, please contact me by email at <nizzyno@icloud.com>.
+[My GitHub Site](https://www.github.com/nizzyno)
+If you have any additional questions or concerns, please contact me by email at <nizzyno@icloud.com>.
 This project is licensed under [MIT](https://opensource.org/licenses/MIT).
