@@ -6,7 +6,7 @@ import { breathe } from '../utils/breathe';
 function Breathe() {
   return (
     <div>
-      <div className="container">
+      <div className="breathe-container">
         <div className="solid-circle"></div>
         <p id="text"></p>
         <div className="pointer-container">

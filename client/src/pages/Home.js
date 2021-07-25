@@ -1,6 +1,6 @@
 import React from 'react';
 import SignIn from '../components/Signin';
-import Breathe from '../components/Breathe.js';
+import Breathe from '../components/Breathe';
 
 function Home() {
   return (

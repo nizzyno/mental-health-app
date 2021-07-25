@@ -26,7 +26,7 @@ body {
   margin: 0;
 }
 
-.container {
+.breathe-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,11 +77,11 @@ body {
   display: block;
 }
 
-.container.grow {
+.breathe-container.grow {
   animation: grow 3s linear forwards;
 }
 
-.container.shrink {
+.breathe-container.shrink {
   animation: shrink 3s linear forwards;
 }
 
