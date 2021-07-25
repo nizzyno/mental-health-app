@@ -26,3 +26,12 @@ export const loginUser = (userData) => {
         body: JSON.stringify(userData),
     });
 };
+
+export const deleteUser = (userId) => {
+    return fetch(`/api/users/${userId}`, {
+        method: 'DELETE',
+        headers: {
+            authorization: `Bearer ${token}`,
+        },
+    });
+};
