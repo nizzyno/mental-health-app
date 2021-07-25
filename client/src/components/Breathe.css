@@ -1,6 +1,21 @@
 * {
   box-sizing: border-box;
 }
+
+header {
+  color: aqua;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold;
+}
+/* button {
+  background: transparent;
+  border: none !important;
+  font-size: 0;
+} */
 body {
   color: aqua;
   min-height: 100vh;
