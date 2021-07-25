@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  color: aqua;
+  color: rgb(94, 200, 253);
   min-height: 100vh;
   overflow: hidden;
   display: flex;
@@ -23,7 +23,7 @@ body {
 }
 
 .gradient-circle {
-  background-color: aqua;
+  background-color: rgb(94, 200, 253);
   height: 320px;
   width: 320px;
   top: -10px;
