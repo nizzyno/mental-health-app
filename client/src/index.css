@@ -3,7 +3,92 @@
 body {
     background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1915&q=80");
 }
+/* Start Media Query */
+/* A Media Query max-width: 980px */
+@media screen and (max-width: 980px) {
+  header {
+  }
+  /* Resized content to fit 980px  */
+  .container {
+    max-width: 980px;
+  }
+  /* Moves Nav  */
+  nav {
+    margin-right: 10%;
+  }
+  .breathe-container {
+    position: absolute;
+    margin-top: 100px;
+  }
+  footer {
+    width: 30%;
+    z-index: 99;
+    position: fixed;
+    text-align: center;
+  }
+}
+
+/* A Media Query max-width: 768px */
+@media screen and (max-width: 768px) {
+  header {
+    width: 40%;
+    text-align: center;
+  }
+  /* Resized content to fit 768px  */
+  .container {
+    max-width: 786px;
+  }
+  .breathe-container {
+    position: relative;
+    margin-top: 100px;
+  }
+  /* Moves Nav  */
+  nav {
+    margin-right: 10%;
+  }
+  footer {
+    width: 30%;
+    z-index: 99;
+    position: fixed;
+    text-align: center;
+  }
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* A Media Query max-width: 575px */
+@media screen and (max-width: 575px) {
+  /* Resized content to fit 575px  */
+  .container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    position: absolute;
+  }
+  /* Moves Nav  */
+  nav {
+    margin-left: 24%;
+    margin-right: 24%;
+  }
+  .breathe-container {
+    width: auto;
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px;
+  }
+  /* Resizes footer */
+  footer {
+    width: 60%;
+    z-index: 99;
+    position: fixed;
+    text-align: center;
+  }
+}
