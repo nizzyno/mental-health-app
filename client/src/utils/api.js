@@ -27,11 +27,14 @@ export const loginUser = (userData) => {
     });
 };
 
-export const deleteUser = (userId) => {
-    return fetch(`/api/users/${userId}`, {
+export const deleteUser = (userData) => {
+    return fetch(`/api/users/${userData.id}`, {
         method: 'DELETE',
         headers: {
-            authorization: `Bearer ${token}`,
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(userData),
         },
     });
 };
