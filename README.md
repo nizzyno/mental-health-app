@@ -17,7 +17,7 @@ Mental health breathing/meditation and subscription app. Full-Stack MERN app. Th
 https://drive.google.com/file/d/1MNxbJRhsDu0P4F81HSb--SryI9hNDQBD/view
 
 ## Installation
-Visit the URL and download app from URL search bar...
+Visit the URL and download app from URL search bar.
 Local testing demo: (#)
 
 ## Usage
@@ -28,7 +28,7 @@ Local testing demo: (#)
 - npm run develop at root level
 
 ## Contributors
-- [Ritchie Ortiz](https://www.GitHub.com/xRitchie91)
+- [Ritchie Ortiz](https://www.GitHub.com/xRitchie91) 
 - [Emily Pozzi](https://www.GitHub.com/emilyepozzi)
 - [Kyle McKinley](https://www.GitHub.com/kjmckinley)
 - [Peter Martinez](https://www.GitHub.com/Pmarti53)
