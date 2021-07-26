@@ -31,10 +31,6 @@
   color: #61dafb;
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
