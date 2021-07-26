@@ -1,5 +1,17 @@
 import React from 'react';
 
+function NavBar(props) {
+const navBarLinks = [
+  {
+      navLink: 'Login',
+  },
+  {
+      navLink: 'Logout',
+  },
+  {
+      navLink: 'SignUp',
+  }]
+
 const Header = () => {
   return (
     <header>
