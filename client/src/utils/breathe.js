@@ -1,5 +1,5 @@
 export function breathe() {
-  const container = document.querySelector('.container');
+  const breatheContainer = document.querySelector('.breathe-container');
   const text = document.querySelector('#text');
 
   const totalTime = 7500;
@@ -7,14 +7,14 @@ export function breathe() {
   const holdTime = totalTime / 5;
 
   text.innerHTML = 'Breathe In';
-  container.className = 'container grow';
+  breatheContainer.className = 'container grow';
 
   setTimeout(() => {
     text.innerHTML = 'Hold';
 
     setTimeout(() => {
       text.innerHTML = 'Breathe Out';
-      container.className = 'container shrink';
+      breatheContainer.className = 'container shrink';
     }, holdTime);
   }, breatheTime);
 }

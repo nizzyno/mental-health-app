@@ -49,7 +49,6 @@ function App() {
 
               {/* <Route component={NoMatch} /> */}
             </Switch>
-            <Home />
           </div>
           <Footer />
         </div>

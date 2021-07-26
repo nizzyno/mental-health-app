@@ -1,3 +1,50 @@
 header {
   color: black;
+  text-decoration: none;
+  font-weight: bold;
 }
+a {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.haven {
+  font-weight: lighter;
+  font-size: 80%;
+  letter-spacing: 2.5em;
+  position: relative;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav {
+  font-weight: lighter;
+  color: black;
+  letter-spacing: 5px;
+  margin-left: 200px;
+  cursor: pointer;
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12em;
+  margin: auto;
+  position: relative;
+  width: 100%;
+}
+/* .flex-row {
+  display: flex;
+  flex-wrap: wrap;
+} */
