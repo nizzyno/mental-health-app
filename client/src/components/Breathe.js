@@ -1,5 +1,5 @@
 import React from 'react';
-import './Breathe.css';
+import '../index.css';
 import { breathe } from '../utils/breathe';
 
 function Breathe() {
