@@ -5,6 +5,9 @@
 ## Description
 
 Mental health breathing/meditation and subscription app. Full-Stack MERN app. This app is deployed via Heroku.
+https://aqueous-waters-14749.herokuapp.com/
+
+
 
 ## Table of Contents
 
