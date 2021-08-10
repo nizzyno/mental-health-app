@@ -30,7 +30,6 @@ Local testing demo: (#)
 
 ## Usage
 - git pull git@github.com:nizzyno/mental-health-app.git
-- git pull git@github.com:xRitchie91/haven-app.git
 - create branches locally: git checkout -b develop and git checkout -b feature/name
 - only merge into develop branch unless another team confirms
 - npm i at root level of directory
